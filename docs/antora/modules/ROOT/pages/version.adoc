@@ -1,0 +1,8 @@
+= 版本变更
+
+:numbered!: ''
+
+== 1.0.0
+
+* Makefile 成分
+* Make 处理过程

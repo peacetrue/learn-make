@@ -1,0 +1,12 @@
+name: learn-make
+title: 学习 Make
+version: master
+asciidoc:
+  attributes:
+    numbered: '@'
+    website: https://peacetrue.github.io
+    app-group: com.github.peacetrue.learn
+    app-name: learn-make
+start_page: ROOT:index.adoc
+nav:
+  - modules/ROOT/nav.adoc

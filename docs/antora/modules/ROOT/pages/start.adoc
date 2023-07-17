@@ -1,0 +1,8 @@
+= 快速入门
+
+[source%nowrap,bash,subs=attributes]
+----
+git clone https://github.com/peacetrue/{app-name}
+cd {app-name}
+make
+----

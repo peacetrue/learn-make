@@ -1,0 +1,38 @@
+= 概述
+:website: https://peacetrue.github.io
+:app-group: com.github.peacetrue.learn
+:app-name: learn-make
+
+image:https://img.shields.io/github/actions/workflow/status/peacetrue/{app-name}/main.yml?branch=master["GitHub Workflow Status",link="https://github.com/peacetrue/{app-name}/actions"]
+image:https://snyk.io/test/github/peacetrue/{app-name}/badge.svg["Snyk",link="https://app.snyk.io/org/peacetrue"]
+
+//@formatter:off
+
+== 简介（What）
+
+{website}/{app-name}/[{app-name}] 用于记录学习 https://www.gnu.org/software/make/[GNU Make^] 的过程。
+
+== 背景（Why）
+
+官方文档介绍得很详细，但仍然有些内容理解不清晰，本仓库对其中部分概念提供使用案例。
+
+== 用法（How）
+
+[source%nowrap,bash,subs=attributes]
+----
+git clone https://github.com/peacetrue/{app-name}
+cd {app-name}
+make
+----
+
+== 参与者（Who）
+
+. peace(xiayouxue@hotmail.com)
+
+== 活动（When）
+
+初始提交于 2023-07-17，最近提交于 {docdate}。
+
+== 许可证（License）
+
+https://github.com/peacetrue/{app-name}/blob/master/LICENSE[Apache License 2.0^]
