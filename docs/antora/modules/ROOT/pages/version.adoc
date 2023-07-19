@@ -4,5 +4,5 @@
 
 == 1.0.0
 
-* Makefile 成分
-* Make 处理过程
+* Makefile 构建
+* Make 执行过程

@@ -1,5 +1,5 @@
 # https://www.gnu.org/software/make/manual/make.html#Makefile-Contents
-# 此文件用于演示 Makefile 的成分：显式规则、隐式规则、变量定义、指令、注释
+# 此文件用于演示 Makefile 的构成部件：显式规则、隐式规则、变量定义、指令、注释
 # 变量定义
 element.variable=variable
 # 显示规则，不含先决条件，食谱在下一行；同时演示分割的长行。
