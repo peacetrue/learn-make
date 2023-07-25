@@ -1,17 +1,12 @@
 # https://www.gnu.org/software/make/manual/make.html
 all:
-	echo 'make 默认执行第一个目标'
-
-
+	echo "make 默认执行第一个目标"
+# 所有最终执行的规则，都以 case 结尾
 include element.mk
 include phases.mk
-
-# Antora 文档案例
-antora_dir=docs/antora/modules/ROOT/pages
-$(antora_dir)/manual.adoc:
-	touch $@
-manual.adoc.case: $(antora_dir)/manual.adoc
-	make -h > $<
-	sed -i '1s/^/= 用户手册\n\n.make -h\n----\n/' $<
-	echo '----' >> $<
+include vap.mk
+include antora.mk
+include build.common.mk
+include build.elf.mk
+include mrot.mk
 
