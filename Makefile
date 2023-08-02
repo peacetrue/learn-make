@@ -5,8 +5,9 @@ all:
 include element.mk
 include phases.mk
 include vap.mk
-include antora.mk
 include build.common.mk
 include build.elf.mk
+include process.mk
 include mrot.mk
+include debug.mk
 

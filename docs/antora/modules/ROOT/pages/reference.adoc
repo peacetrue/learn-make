@@ -1,5 +1,23 @@
 = 参考指南
 
+== 源码结构
+
+按逻辑顺序列出，不对应文件系统中的顺序。
+
+. docs：文档目录
+. src：源文件目录
+. Makefile：make 配置文件
+. [特性测试类]
+. element.mk：Makefile 的构成部件
+. phases.mk：make 的处理阶段
+. mrot：多个规则使用同一个目标
+. vap.mk：变量作为先决条件
+. [通用功能类]
+. debug.mk：调试相关
+. os.mk：操作系统相关
+. build.common.mk：构建通用模块
+. build.elf.mk：构建 elf 模块
+. process.mk：进程相关
 
 == 附录
 

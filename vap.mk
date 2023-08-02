@@ -1,4 +1,5 @@
 # 变量作为先决条件：variable as prerequisites
+# 只对延迟解析的变量有效，立即解析的无效
 vap.variable:=1
 vap.normal.case:
 	@echo "$(vap.variable)"
@@ -10,4 +11,4 @@ vap.special.case:
 #TODO 只能定义一个变量，如何定义多个变量
 #vap.special.case: vap.variable:=2 vap.variable:=2
 
-vap.cases: vap.special.case vap.normal.case
+vap.cases: vap.special.case vap.normal.case;
